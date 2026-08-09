@@ -2,6 +2,35 @@
 
 `loki-image2` 是一个面向 Codex 的品牌信息图 Skill，可把文本、文档、音频或图片整理成信息图方案、可复用 Prompt，或在明确确认后生成图片。
 
+## 12 套视觉风格预览
+
+<table>
+  <tr>
+    <td><img src="docs/style-gallery/01-whiteboard-pro-9x16.png" alt=""></td>
+    <td><img src="docs/style-gallery/02-blackboard-kids-1x1.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/03-blackboard-pro-9x16.png" alt=""></td>
+    <td><img src="docs/style-gallery/04-friendly-illustration-4x3.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/05-retro-vector-3x2.png" alt=""></td>
+    <td><img src="docs/style-gallery/06-clean-report-16x9.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/07-dark-tech-16x9.png" alt=""></td>
+    <td><img src="docs/style-gallery/08-journal-watercolor-9x16.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/09-chinese-classic-4x3.png" alt=""></td>
+    <td><img src="docs/style-gallery/10-ai-blueprint-3x2.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/11-future-editorial-9x16.png" alt=""></td>
+    <td><img src="docs/style-gallery/12-clay-lab-1x1.png" alt=""></td>
+  </tr>
+</table>
+
 ## 主要能力
 
 - `plan`：只输出内容分析、层级、布局与风格建议。
