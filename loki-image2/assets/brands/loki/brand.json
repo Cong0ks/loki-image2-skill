@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "loki",
+  "display_name": "Loki",
+  "character_image": "character.png",
+  "enabled_by_default": true,
+  "anchors": [
+    "white spiky hair",
+    "red eyes",
+    "playful expression",
+    "white ghost body",
+    "curved ghost tail",
+    "2.5 to 3 head chibi proportion"
+  ],
+  "default_palette": ["#FFFFFF", "#EF3340", "#161616"]
+}

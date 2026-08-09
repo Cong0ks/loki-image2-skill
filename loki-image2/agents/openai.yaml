@@ -1,0 +1,4 @@
+interface:
+  display_name: "Loki Image2"
+  short_description: "将内容转为可控的品牌信息图并支持多渠道生图"
+  default_prompt: "Use $loki-image2 to turn this content into a branded infographic plan or prompt, and ask before generating an image."

@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "data": {
+    "id": "task_test_001",
+    "status": "failed",
+    "error": {
+      "message": "generation failed"
+    }
+  }
+}
