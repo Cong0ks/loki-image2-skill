@@ -1,46 +1,14 @@
 # Loki Image2
 
+<p align="center">
+  <img src="docs/loki-image2-banner-v2-16x9.png" alt="Loki Image2" width="100%">
+</p>
+
 `loki-image2` 是一个面向 Codex 的品牌信息图 Skill，可把文本、文档、音频或图片整理成信息图方案、可复用 Prompt，或在明确确认后生成图片。
 
-## 12 套视觉风格预览
+<p align="center"><a href="#快速开始">快速开始</a> · <a href="#12-套视觉风格预览">视觉风格</a> · <a href="#主要能力">主要能力</a> · <a href="#生成确认">生成确认</a> · <a href="#provider">Provider</a> · <a href="#安全设计">安全设计</a> · <a href="#测试">测试</a> · <a href="#目录">目录</a></p>
 
-<table>
-  <tr>
-    <td><img src="docs/style-gallery/01-whiteboard-pro-9x16.png" alt=""></td>
-    <td><img src="docs/style-gallery/02-blackboard-kids-1x1.png" alt=""></td>
-  </tr>
-  <tr>
-    <td><img src="docs/style-gallery/03-blackboard-pro-9x16.png" alt=""></td>
-    <td><img src="docs/style-gallery/04-friendly-illustration-4x3.png" alt=""></td>
-  </tr>
-  <tr>
-    <td><img src="docs/style-gallery/05-retro-vector-3x2.png" alt=""></td>
-    <td><img src="docs/style-gallery/06-clean-report-16x9.png" alt=""></td>
-  </tr>
-  <tr>
-    <td><img src="docs/style-gallery/07-dark-tech-16x9.png" alt=""></td>
-    <td><img src="docs/style-gallery/08-journal-watercolor-9x16.png" alt=""></td>
-  </tr>
-  <tr>
-    <td><img src="docs/style-gallery/09-chinese-classic-4x3.png" alt=""></td>
-    <td><img src="docs/style-gallery/10-ai-blueprint-3x2.png" alt=""></td>
-  </tr>
-  <tr>
-    <td><img src="docs/style-gallery/11-future-editorial-9x16.png" alt=""></td>
-    <td><img src="docs/style-gallery/12-clay-lab-1x1.png" alt=""></td>
-  </tr>
-</table>
-
-## 主要能力
-
-- `plan`：只输出内容分析、层级、布局与风格建议。
-- `prompt`：输出方案和最终 Prompt，不调用生图服务。
-- `generate`：完成确认后，通过 Codex 内置 imagegen、APIMart 或 OpenAI Images-compatible 端点生成图片。
-- 默认使用 Loki IP，也支持关闭 IP、临时上传角色，以及保存可复用的自定义品牌。
-- 内置 12 套视觉风格，未指定时根据内容自动推荐。
-- 支持文本、常见文档、音频和图片；首版不支持视频。
-
-## 安装
+## 快速开始
 
 将仓库中的 `loki-image2` 目录复制到 Codex skills 目录：
 
@@ -52,15 +20,47 @@ $CODEX_HOME/skills/loki-image2
 
 ```text
 $loki-image2 阅读这篇文章，帮我规划一张信息图
-```
-
-```text
 $loki-image2 使用 prompt 模式输出可复用的生图提示词
-```
-
-```text
 $loki-image2 使用 generate 模式直接生成图片
 ```
+
+## 12 套视觉风格预览
+
+<table>
+  <tr>
+    <td><img src="docs/style-gallery/01-whiteboard-pro-9x16.png" alt=""></td>
+    <td><img src="docs/style-gallery/03-blackboard-pro-9x16.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/02-blackboard-kids-1x1.png" alt=""></td>
+    <td><img src="docs/style-gallery/12-clay-lab-1x1.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/04-friendly-illustration-4x3.png" alt=""></td>
+    <td><img src="docs/style-gallery/09-chinese-classic-4x3.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/05-retro-vector-3x2.png" alt=""></td>
+    <td><img src="docs/style-gallery/10-ai-blueprint-3x2.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/06-clean-report-16x9.png" alt=""></td>
+    <td><img src="docs/style-gallery/07-dark-tech-16x9.png" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="docs/style-gallery/08-journal-watercolor-9x16.png" alt=""></td>
+    <td><img src="docs/style-gallery/11-future-editorial-9x16.png" alt=""></td>
+  </tr>
+</table>
+
+## 主要能力
+
+- `plan`：只输出内容分析、层级、布局与风格建议。
+- `prompt`：输出方案和最终 Prompt，不调用生图服务。
+- `generate`：完成确认后，通过 Codex 内置 imagegen、APIMart 或 OpenAI Images-compatible 端点生成图片。
+- 默认使用 Loki IP，也支持关闭 IP、临时上传角色，以及保存可复用的自定义品牌。
+- 内置 12 套视觉风格，未指定时根据内容自动推荐。
+- 支持文本、常见文档、音频和图片；首版不支持视频。
 
 ## 生成确认
 
